@@ -1,0 +1,17 @@
+This is a Python tool for maya. The tool find all references in your scene and check if there are any that need updating.
+
+Installation:
+
+1.  Close all instance of Maya.
+
+2.  Copy updateReferenceTool.py to:
+
+        Windows: \Documents\maya\version\scripts
+        Linux: $HOME/Library/Preferences/Autodesk/maya/version/scripts
+
+3.  Launch Maya
+
+4.  Execute the following in a Maya:
+
+import updateReferenceTool as uRef
+uRef.UpdateReference()
