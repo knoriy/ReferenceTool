@@ -11,7 +11,7 @@ Installation:
 
 3.  Launch Maya
 
-4.  Execute the following in a Maya:
+4.  Execute the following in Maya:
 
 import updateReferenceTool as uRef
 uRef.UpdateReference()
